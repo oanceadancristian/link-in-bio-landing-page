@@ -1,0 +1,185 @@
+.profile-card {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 25px;
+  padding: 100px 25px 25px;
+  width: 360px;
+  text-align: center;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  position: relative;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  top: -75px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 5px solid white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #f0f0f0;
+  overflow: hidden;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.8em;
+  color: #ff69b4;
+}
+
+.verified-icon {
+  width: 20px;
+  height: 20px;
+  fill: #1da1f2;
+}
+
+.status {
+  background-color: #d4edda;
+  color: #155724;
+  font-size: 0.85em;
+  padding: 4px 10px;
+  border-radius: 18px;
+  display: inline-flex;
+  align-items: center;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #2ecc71;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.info {
+  margin: 6px 0;
+  font-size: 1.1em;
+  color: #777;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.user-message {
+  margin: 18px 0;
+  font-size: 1.15em;
+  color: #333;
+  line-height: 1.5;
+}
+
+.status-location-name {
+  color: red;
+}
+
+.message-button {
+  background-color: #12a5ec;
+  /* background-color: #ff5733; */
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  font-size: 1.3em;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.message-button:hover {
+  background-color: #1293d3;
+  /* background-color: #eb522f; */
+  transform: scale(1.025);
+}
+
+.gambling-button {
+  background-color: #ffc300;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  font-size: 1.3em;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.gambling-button:hover {
+  background-color: #d4a200;
+  transform: scale(1.025);
+}
+
+.affiliate-button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  font-size: 1.3em;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.affiliate-button:hover {
+  background-color: #cc3c3c;
+  transform: scale(1.025);
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+.sale-info {
+  margin-top: 12px;
+  font-size: 1.1em;
+}
+
+.sale-percentage {
+  color: #ff4444;
+  font-weight: bold;
+}
+
+.sale-timer {
+  color: #777;
+}
