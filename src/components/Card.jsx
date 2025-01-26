@@ -160,6 +160,12 @@ export const Card = () => {
           to all my DMs 🔥
         </p>
       )}
+      <p className="sale-info">
+        <span className="sale-percentage">X% OFF </span>
+        <span className="sale-timer" id="sale-timer">
+          sale ends in 0d 0h {timeRemaining}
+        </span>
+      </p>
       <div className="adult-platform-area">
         <button
           onClick={
@@ -239,27 +245,25 @@ export const Card = () => {
       </div>
       <div className="gambling-area">
         <button
-          onClick={() => window.open('gambling website URL', '_blank')}
+          onClick={() => window.open('https://www.bet365.com', '_blank')}
           className="gambling-button"
         >
-          Gambling website name
+          Bet 365
         </button>
       </div>
       <div className="affiliate-area">
         <button
-          onClick={() => window.open('affiliate website URL', '_blank')}
+          onClick={() =>
+            window.open(
+              'https://hop.clickbank.net/?affiliate=0001cea&vendor=katespring&tid=link-in-bio',
+              '_blank'
+            )
+          }
           className="affiliate-button"
         >
-          Affiliate product name
+          The Obsession Method
         </button>
       </div>
-
-      <p className="sale-info">
-        <span className="sale-percentage">X% OFF </span>
-        <span className="sale-timer" id="sale-timer">
-          sale ends in 0d 0h {timeRemaining}
-        </span>
-      </p>
     </div>
   );
 };

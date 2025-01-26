@@ -91,7 +91,9 @@ h2 {
 }
 
 .message-button {
+  /* Onlyfans & Fansly */
   background-color: #12a5ec;
+  /* Fanvue */
   /* background-color: #ff5733; */
   color: white;
   border: none;
@@ -110,13 +112,15 @@ h2 {
 }
 
 .message-button:hover {
+  /* Onlyfans & Fansly */
   background-color: #1293d3;
+  /* Fanvue */
   /* background-color: #eb522f; */
   transform: scale(1.025);
 }
 
 .gambling-button {
-  background-color: #ffc300;
+  background-color: #126e51;
   color: white;
   border: none;
   padding: 15px 25px;
@@ -134,12 +138,12 @@ h2 {
 }
 
 .gambling-button:hover {
-  background-color: #d4a200;
+  background-color: #189970;
   transform: scale(1.025);
 }
 
 .affiliate-button {
-  background-color: #ff4d4d;
+  background-color: #f04241;
   color: white;
   border: none;
   padding: 15px 25px;
@@ -157,7 +161,7 @@ h2 {
 }
 
 .affiliate-button:hover {
-  background-color: #cc3c3c;
+  background-color: #dd3535;
   transform: scale(1.025);
 }
 
