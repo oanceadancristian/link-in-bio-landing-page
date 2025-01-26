@@ -1,1 +1,1 @@
-# link-in-bio-landing-page
+# Link in bio landing page
