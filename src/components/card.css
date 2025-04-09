@@ -119,8 +119,31 @@ h2 {
   transform: scale(1.025);
 }
 
+.spoiling-button {
+  background-color: #8b51ff;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  font-size: 1.3em;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.spoiling-button:hover {
+  background-color: #752fff;
+  transform: scale(1.025);
+}
+
 .gambling-button {
-  background-color: #126e51;
+  background-color: #189970;
   color: white;
   border: none;
   padding: 15px 25px;
@@ -138,7 +161,7 @@ h2 {
 }
 
 .gambling-button:hover {
-  background-color: #189970;
+  background-color: #126e51;
   transform: scale(1.025);
 }
 
@@ -162,6 +185,29 @@ h2 {
 
 .affiliate-button:hover {
   background-color: #dd3535;
+  transform: scale(1.025);
+}
+
+.telegram-button {
+  background-color: #24a1de;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  font-size: 1.3em;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.telegram-button:hover {
+  background-color: #1e92ca;
   transform: scale(1.025);
 }
 
